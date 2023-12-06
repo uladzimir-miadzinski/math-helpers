@@ -72,13 +72,13 @@ export function calcArcHeightPoint(aPoint: Point, dPoint: Point, arcHeight?: num
     //   |\
     //   |α\
     //   |  \
-    // b |   \ с - гипотенуза
+    // b |   \ с
     //   |    \
     //   |     \
     //   |      \
     //   |γ=90° β\
     //   |        \
-    //   C ------- B (?, ?) - надо найти координаты этой вершины
+    //   C ------- B (?, ?) - need to find coords
     //   |   a    /
     //   |       /
     //   |      /
