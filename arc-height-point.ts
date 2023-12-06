@@ -19,10 +19,9 @@ interface Triangle {
     pointA?: Point; // A point coords
     pointB?: Point; // B point coords
     pointC?: Point; // C point coords
-    sideA?: number; // катет a.
-    sideB?: number; // катет b.
-    sideC?: number; // гипотенуза c.
-    area?: number; // площадь.
+    sideA?: number;
+    sideB?: number;
+    sideC?: number; // hypotenuse c.
 }
 
 function findThirdTriangleVertex(T: Triangle, swap?: boolean): Point {
