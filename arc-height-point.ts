@@ -60,7 +60,7 @@ function calcDistanceMiddlePoint(source: Point, target: Point): Point {
 }
 
 /**
- * Calculate middle point (x2, y2) coordinates above straight line to draw required arc
+ * Calculate middle point B(x2, y2) coordinates above/below straight line to draw required arc
  * because we can't use simple ctx.arcTo or ctx.arc in Konva.Shape or Konva.Arrow sceneFn,
  * or Konva.Arc because we lost arrow that Konva.Arrow do for us
  * Arrow positioning depends on angle at the end of line connecting two nodes.
