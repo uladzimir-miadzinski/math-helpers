@@ -25,7 +25,7 @@ interface Triangle {
 }
 
 function findThirdTriangleVertex(T: Triangle, swap?: boolean): Point {
-    // Единичный вектор:
+    // Unit vector:
     const unitVec: Point = {
         x: (T.pointA.x - T.pointC.x) / T.sideB,
         y: (T.pointA.y - T.pointC.y) / T.sideB,
